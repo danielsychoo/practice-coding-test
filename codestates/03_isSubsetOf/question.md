@@ -1,22 +1,35 @@
-# firstNonRepeatedCharacter
+# isSubsetOf
 # 문제
-임의의 문자열을 입력받아 문자열 내에서 한 번만 등장하는 문제를 리턴해야 합니다.
+두 개의 배열 (`base`, `sample`)을 입력받아 `sample`이 `base`의 부분집합인지 리턴해야 합니다.
 
 # 입력
-- 인자1: `string` 타입의 공백이 없는 문자열
+## 인자1: base
+- `number` 타입을 요소로 갖는 임의의 배열 (`base.length <= 100`)
+## 인자2: sample
+- `number` 타입을 요소로 갖는 임의의 배열 (`sample.length <= 100`)
 
 # 출력
-- `string` 타입을 리턴해야 합니다.
+- `boolean` 타입을 리턴해야 합니다.
 
 # 주의사항
-- 조건을 만족하는 문자 중 가장 먼저 위치한 문자를 리턴해야 합니다.
-- 조건을 만족하는 문자가 없는 경우, `null`을 리턴해야 합니다.
+- `base`, `sample`내에 중복하는 요소는 없다고 가정합니다.
 
 # 입출력 예시
 ```javascript
-let ouput = firstNonRepeatedCharacter('ABA');
-console.log(output); // --> 'B'
+let base = [1, 2, 3, 4, 5];
+let sample = [1, 3];
+let output = isSubsetOf(base, sample);
+console.log(output); // --> true
 
-output = firstNonRepeatedCharacter('AACBDBC');
-console.log(output); // --> 'D'
+sample = [6, 7];
+output = isSubsetOf(base, sample);
+console.log(output); // --> false
+
+base = [10, 99, 123, 7];
+sample = [11, 100, 99, 123];
+output = isSubsetOf(base, sample);
+console.log(output); // --> false
 ```
+
+# Advanced
+- 시간복잡도를 개선하여, Advanced 테스트 케이스 (`base`, `sample`의 길이가 70,000 이상)를 통과해 보세요.
