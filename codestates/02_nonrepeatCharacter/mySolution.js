@@ -7,7 +7,7 @@ const firstNonRepeatedCharacter = function (str) {
       if(result[str[n]] > 1) {
         continue;
       }
-      // 3. key는 str[i], value는 count
+      // 2. key는 str[i], value는 count
       if(str[n] === str[i] && !(result[str[n]])) {
         result[str[n]] = 1;
       } else if(str[n] === str[i]) {
@@ -15,7 +15,7 @@ const firstNonRepeatedCharacter = function (str) {
       }
     }
   }
-  // 4. 결과값 찾기
+  // 3. 결과값 찾기
   for(let key in result) {
     if(result[key] === 1) {
       return key;

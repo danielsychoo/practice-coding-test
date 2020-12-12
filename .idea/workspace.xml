@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a4eb42f1-1ae5-4427-aa23-ea0d9cfa109d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codestates/02_nonrepeatCharacter/mySolution.js" beforeDir="false" afterPath="$PROJECT_DIR$/codestates/02_nonrepeatCharacter/mySolution.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +30,16 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.mySolution.js (1)">
+    <configuration name="mySolution.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codestates/01_rockPaperScissors/mySolution.js" working-dir="$PROJECT_DIR$/codestates/01_rockPaperScissors">
+      <method v="2" />
+    </configuration>
     <configuration name="mySolution.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codestates/02_nonrepeatCharacter/mySolution.js" working-dir="$PROJECT_DIR$/codestates/02_nonrepeatCharacter">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.mySolution.js (1)" />
         <item itemvalue="Node.js.mySolution.js" />
       </list>
     </recent_temporary>
@@ -55,11 +58,22 @@
       <workItem from="1607782758924" duration="58000" />
       <workItem from="1607788330428" duration="659000" />
       <workItem from="1607789450222" duration="1182000" />
-      <workItem from="1607791278592" duration="2950000" />
+      <workItem from="1607791278592" duration="3813000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/codestates/01_rockPaperScissors/mySolution.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
