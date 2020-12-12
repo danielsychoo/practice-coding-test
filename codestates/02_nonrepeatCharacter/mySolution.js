@@ -1,25 +1,31 @@
-const rockPaperScissors = function (count) {
-  // parameter가 입력되면 count = count, 없으면 count = 3
-  count = count || 3;
-  // 1. 경우의 수를 모두 담은 array
-  const rpsExample = ["rock", "paper", "scissors"];
-  const result = [];
-  // 2. recursion function
-  let playGames = function (round, gameBoard) {
-    for(let i = 0; i < rpsExample.length; i++) {
-      let currentRps = rpsExample[i];
-      // baseCase
-      if(round === 0) {
-        result.push(gameBoard);
-        return;
+const firstNonRepeatedCharacter = function (str) {
+  // 1. str을 2중 for loop으로 순회하며 비교
+  let result = {};
+  for(let i = 0; i < str.length; i++) {
+    for(let n = 0; n < str.length; n++) {
+      // 이미 value가 2 이상인 것은 그냥 넘기기
+      if(result[str[n]] > 1) {
+        continue;
       }
-      // gameBoard에 currentRps를 concat
-      playGames(round - 1, gameBoard.concat(currentRps));
+      // 3. key는 str[i], value는 count
+      if(str[n] === str[i] && !(result[str[n]])) {
+        result[str[n]] = 1;
+      } else if(str[n] === str[i]) {
+        result[str[n]] ++;
+      }
     }
   }
-  // 처음에 gameBoard를 []로 지정
-  playGames(count, []);
-  return result;
+  // 4. 결과값 찾기
+  for(let key in result) {
+    if(result[key] === 1) {
+      return key;
+    }
+  }
+  return null;
 }
 
-console.log(rockPaperScissors());
+// let output = firstNonRepeatedCharacter('ABA');
+// console.log(output); // --> 'B'
+
+output = firstNonRepeatedCharacter('AAEBDBC');
+console.log(output); // --> 'E'
