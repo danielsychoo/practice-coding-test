@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="223494da-53f1-4904-a141-a6f6d67eb263" name="Default Changelist" comment="" />
+    <list default="true" id="322b4b24-b021-4edb-b259-45db8b183b45" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../codestates/02_nonrepeatCharacter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../codestates/02_nonrepeatCharacter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../codestates/03_isSubsetOf/mySolution.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../codestates/03_isSubsetOf/mySolution.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1lZPK0on9alj2WgU9WKb0WJWZKt" />
+  <component name="ProjectId" id="1laWu8jDvillZ9s26XIEBgKUyKy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -18,7 +22,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -27,13 +31,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="223494da-53f1-4904-a141-a6f6d67eb263" name="Default Changelist" comment="" />
-      <created>1607801574080</created>
+      <changelist id="322b4b24-b021-4edb-b259-45db8b183b45" name="Default Changelist" comment="" />
+      <created>1607835901700</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1607801574080</updated>
-      <workItem from="1607801576741" duration="1406000" />
-      <workItem from="1607803305729" duration="54000" />
+      <updated>1607835901700</updated>
+      <workItem from="1607835903113" duration="380000" />
     </task>
     <servers />
   </component>
@@ -50,6 +53,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

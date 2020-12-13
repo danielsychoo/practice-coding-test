@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="223494da-53f1-4904-a141-a6f6d67eb263" name="Default Changelist" comment="" />
+    <list default="true" id="ebc95dcb-8a3c-463d-bec3-c7f54ee9706e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../02_nonrepeatCharacter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02_nonrepeatCharacter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mySolution.js" beforeDir="false" afterPath="$PROJECT_DIR$/mySolution.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1lZPK0on9alj2WgU9WKb0WJWZKt" />
+  <component name="ProjectId" id="1lZUhHn2gFkGSGFWfKggq7hgxuT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,13 +30,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="223494da-53f1-4904-a141-a6f6d67eb263" name="Default Changelist" comment="" />
-      <created>1607801574080</created>
+      <changelist id="ebc95dcb-8a3c-463d-bec3-c7f54ee9706e" name="Default Changelist" comment="" />
+      <created>1607804226419</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1607801574080</updated>
-      <workItem from="1607801576741" duration="1406000" />
-      <workItem from="1607803305729" duration="54000" />
+      <updated>1607804226419</updated>
+      <workItem from="1607804228853" duration="57000" />
     </task>
     <servers />
   </component>
@@ -50,6 +52,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
