@@ -3,14 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="a4eb42f1-1ae5-4427-aa23-ea0d9cfa109d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codestates/04_bubbleSort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/codestates/04_bubbleSort/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codestates/04_bubbleSort/bestPractice.js" beforeDir="false" afterPath="$PROJECT_DIR$/codestates/04_bubbleSort/bestPractice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codestates/04_bubbleSort/mySolution.js" beforeDir="false" afterPath="$PROJECT_DIR$/codestates/04_bubbleSort/mySolution.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="ProjectId" id="1lYnBAkAtYqAO7IrPjsYG8S7guo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -63,7 +65,8 @@
       <workItem from="1607789450222" duration="1182000" />
       <workItem from="1607791278592" duration="3813000" />
       <workItem from="1607835736873" duration="164000" />
-      <workItem from="1607939045204" duration="1195000" />
+      <workItem from="1607939045204" duration="1430000" />
+      <workItem from="1607959297079" duration="1674000" />
     </task>
     <servers />
   </component>
