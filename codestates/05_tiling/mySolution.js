@@ -1,5 +1,5 @@
+const memo = [0, 1, 2];
 let tiling = function (n) {
-  // edgeCase
   if(n === 1) {
     return 1;
   }
@@ -7,14 +7,26 @@ let tiling = function (n) {
     return 2;
   }
 
-  return (n - 2) + (n - 1);
+  if(memo[n] === undefined) {
+    memo[n] = tiling(n - 2) + tiling(n - 1);
 
+  }
+  // 설마 1, 2, 3, 5, 8, 13, ...
+  return memo[n];
 };
+//memo[4] = memo[2] + memo[3]
+//memo[4] = 2 + 1 + 2 = 5
+
+//memo[5] = memo[3] + memo[4]
+//memo[5] = memo[1] + memo[2] + memo[2] + memo[3]
+//memo[5] = 1 + 2 + 2 + memo[1] + memo[2]
+//memo[5] = 8
 
 
 
-let output = tiling(2);
-console.log(output); // --> 2
+
+// let output = tiling(2);
+// console.log(output); // --> 2
 
 output = tiling(4);
 console.log(output); // --> 5
