@@ -1,7 +1,6 @@
 const bubbleSort = function (arr) {
   let smallerEl = 0;
   let biggerEl = 0;
-  let result = arr;
   for(let i = 0; i < arr.length; i++) {
     let count = 0; // 시간단축용
     for(let n = 0; n < arr.length; n++) {
@@ -9,13 +8,13 @@ const bubbleSort = function (arr) {
         count++;
         smallerEl = arr[n + 1];
         biggerEl = arr[n];
-        result[n] = smallerEl;
-        result[n + 1] = biggerEl;
+        arr[n] = smallerEl;
+        arr[n + 1] = biggerEl;
       }
     }
-    if(count === 0) return result; // 단축 실시!!!
+    if(count === 0) return arr; // 단축실시!!!
   }
-  return result;
+  return arr;
 }
 
 
