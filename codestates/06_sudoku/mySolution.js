@@ -8,12 +8,7 @@ const sudoku = function (board) {
   // 4. 1, 2, 3 All true 이면 넣기
   // 5. board에 4의 함수를 적용!
   // --------------------------------------- 수도코드 End//
-  for(let i = 0; i < 9; i++) {
-    currentRow = board[i];
-    for(let n = 0; n < 9; n++) {
-      if(currentRow[n] === numberTools[n])
-    }
-  }
+
 };
 
 let board = [

@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5f6da4d-06a7-42bd-a6a0-df265f4a5749" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codestates.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_isSubsetOf/bestPractice.js" beforeDir="false" afterPath="$PROJECT_DIR$/03_isSubsetOf/bestPractice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_isSubsetOf/mySolution.js" beforeDir="false" afterPath="$PROJECT_DIR$/03_isSubsetOf/mySolution.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetCode/1572.Matrix_Diagonal_Sum/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leetCode/1572.Matrix_Diagonal_Sum/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_sudoku/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/06_sudoku/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_sudoku/bestPractice.js" beforeDir="false" afterPath="$PROJECT_DIR$/06_sudoku/bestPractice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_sudoku/mySolution.js" beforeDir="false" afterPath="$PROJECT_DIR$/06_sudoku/mySolution.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +55,8 @@
       <option name="presentableId" value="Default" />
       <updated>1607844041232</updated>
       <workItem from="1607844045435" duration="4875000" />
+      <workItem from="1608163654955" duration="563000" />
+      <workItem from="1608215901479" duration="2500000" />
     </task>
     <servers />
   </component>
@@ -74,5 +73,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
