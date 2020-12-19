@@ -1,5 +1,12 @@
 let dfs = function (node) {
   // TODO: 여기에 코드를 작성합니다.
+  let values = [node.value];
+
+  node.children.forEach((n) => {
+    values = values.concat(dfs(n));
+  });
+
+  return values;
 };
 
 // 이 아래 코드는 변경하지 않아도 됩니다. 자유롭게 참고하세요.
