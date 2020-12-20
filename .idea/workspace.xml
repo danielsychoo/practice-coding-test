@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a4eb42f1-1ae5-4427-aa23-ea0d9cfa109d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codestates/06_sudoku/bestPractice.js" beforeDir="false" afterPath="$PROJECT_DIR$/codestates/06_sudoku/bestPractice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codestates/08_largestProductOfThree/bestPractice.js" beforeDir="false" afterPath="$PROJECT_DIR$/codestates/08_largestProductOfThree/bestPractice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codestates/08_largestProductOfThree/mySolution.js" beforeDir="false" afterPath="$PROJECT_DIR$/codestates/08_largestProductOfThree/mySolution.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,11 +38,14 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.mySolution.js (2)">
+  <component name="RunManager" selected="Node.js.mySolution.js (3)">
     <configuration name="mySolution.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codestates/01_rockPaperScissors/mySolution.js" working-dir="$PROJECT_DIR$/codestates/01_rockPaperScissors">
       <method v="2" />
     </configuration>
     <configuration name="mySolution.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codestates/05_tiling/mySolution.js" working-dir="$PROJECT_DIR$/codestates/05_tiling">
+      <method v="2" />
+    </configuration>
+    <configuration name="mySolution.js (3)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codestates/08_largestProductOfThree/mySolution.js" working-dir="$PROJECT_DIR$/codestates/08_largestProductOfThree">
       <method v="2" />
     </configuration>
     <configuration name="mySolution.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codestates/02_nonrepeatCharacter/mySolution.js" working-dir="$PROJECT_DIR$/codestates/02_nonrepeatCharacter">
@@ -47,6 +53,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.mySolution.js (3)" />
         <item itemvalue="Node.js.mySolution.js (2)" />
         <item itemvalue="Node.js.mySolution.js (1)" />
         <item itemvalue="Node.js.mySolution.js" />
@@ -74,7 +81,7 @@
       <workItem from="1607963435769" duration="1623000" />
       <workItem from="1608252746286" duration="679000" />
       <workItem from="1608387077309" duration="522000" />
-      <workItem from="1608440150304" duration="628000" />
+      <workItem from="1608440150304" duration="7253000" />
     </task>
     <servers />
   </component>
