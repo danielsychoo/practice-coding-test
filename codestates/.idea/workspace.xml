@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5f6da4d-06a7-42bd-a6a0-df265f4a5749" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07_treeDFS/bestPractice.js" beforeDir="false" afterPath="$PROJECT_DIR$/07_treeDFS/bestPractice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07_treeDFS/mySolution.js" beforeDir="false" afterPath="$PROJECT_DIR$/07_treeDFS/mySolution.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_power/bestPractice.js" beforeDir="false" afterPath="$PROJECT_DIR$/09_power/bestPractice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_power/mySolution.js" beforeDir="false" afterPath="$PROJECT_DIR$/09_power/mySolution.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +33,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.mySolution.js (1)">
+  <component name="RunManager" selected="Node.js.mySolution.js (2)">
+    <configuration name="bestPractice.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/09_power/bestPractice.js" working-dir="$PROJECT_DIR$/09_power">
+      <method v="2" />
+    </configuration>
     <configuration name="mySolution.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/07_treeDFS/mySolution.js" working-dir="$PROJECT_DIR$/07_treeDFS">
+      <method v="2" />
+    </configuration>
+    <configuration name="mySolution.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/09_power/mySolution.js" working-dir="$PROJECT_DIR$/09_power">
       <method v="2" />
     </configuration>
     <configuration name="mySolution.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/03_isSubsetOf/mySolution.js" working-dir="$PROJECT_DIR$/03_isSubsetOf">
@@ -41,6 +48,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.mySolution.js (2)" />
+        <item itemvalue="Node.js.bestPractice.js" />
         <item itemvalue="Node.js.mySolution.js (1)" />
         <item itemvalue="Node.js.mySolution.js" />
       </list>
@@ -61,6 +70,7 @@
       <workItem from="1608163654955" duration="563000" />
       <workItem from="1608215901479" duration="6740000" />
       <workItem from="1608224736271" duration="569000" />
+      <workItem from="1608556370944" duration="6108000" />
     </task>
     <servers />
   </component>
