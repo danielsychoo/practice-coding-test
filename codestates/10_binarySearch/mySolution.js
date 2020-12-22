@@ -37,7 +37,7 @@ console.log(output); // --> 3
 
 // output = binarySearch([0, 1, 2, 3, 4, 5], 1);
 // console.log(output); // --> 1
-
+//
 // const binarySearch = function (arr, target, resultIndex) {
 //   let lastIndex = arr.length - 1;
 //   let middleIndex = Math.floor(lastIndex / 2)

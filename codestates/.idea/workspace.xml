@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e5f6da4d-06a7-42bd-a6a0-df265f4a5749" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_binarySearch/mySolution.js" beforeDir="false" afterPath="$PROJECT_DIR$/10_binarySearch/mySolution.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +18,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -69,6 +72,7 @@
       <workItem from="1608224736271" duration="569000" />
       <workItem from="1608556370944" duration="6963000" />
       <workItem from="1608564933194" duration="318000" />
+      <workItem from="1608656060088" duration="1230000" />
     </task>
     <servers />
   </component>
