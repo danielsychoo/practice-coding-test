@@ -4,6 +4,7 @@
     <list default="true" id="a4eb42f1-1ae5-4427-aa23-ea0d9cfa109d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codestates/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/codestates/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codestates/10_binarySearch/mySolution.js" beforeDir="false" afterPath="$PROJECT_DIR$/codestates/10_binarySearch/mySolution.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +37,7 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.mySolution.js (4)">
+  <component name="RunManager" selected="Node.js.mySolution.js (5)">
     <configuration name="mySolution.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codestates/01_rockPaperScissors/mySolution.js" working-dir="$PROJECT_DIR$/codestates/01_rockPaperScissors">
       <method v="2" />
     </configuration>
@@ -49,16 +50,16 @@
     <configuration name="mySolution.js (4)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codestates/09_power/mySolution.js" working-dir="$PROJECT_DIR$/codestates/09_power">
       <method v="2" />
     </configuration>
-    <configuration name="mySolution.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codestates/02_nonrepeatCharacter/mySolution.js" working-dir="$PROJECT_DIR$/codestates/02_nonrepeatCharacter">
+    <configuration name="mySolution.js (5)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codestates/10_binarySearch/mySolution.js" working-dir="$PROJECT_DIR$/codestates/10_binarySearch">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.mySolution.js (5)" />
         <item itemvalue="Node.js.mySolution.js (4)" />
         <item itemvalue="Node.js.mySolution.js (3)" />
         <item itemvalue="Node.js.mySolution.js (2)" />
         <item itemvalue="Node.js.mySolution.js (1)" />
-        <item itemvalue="Node.js.mySolution.js" />
       </list>
     </recent_temporary>
   </component>
@@ -86,11 +87,24 @@
       <workItem from="1608440150304" duration="8372000" />
       <workItem from="1608478130992" duration="293000" />
       <workItem from="1608509946969" duration="1593000" />
-      <workItem from="1608565571738" duration="203000" />
+      <workItem from="1608565571738" duration="254000" />
+      <workItem from="1608596142499" duration="2585000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/codestates/10_binarySearch/mySolution.js</url>
+          <line>6</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
