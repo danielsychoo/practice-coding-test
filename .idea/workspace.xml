@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a4eb42f1-1ae5-4427-aa23-ea0d9cfa109d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codestates/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/codestates/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codestates/10_binarySearch/mySolution.js" beforeDir="false" afterPath="$PROJECT_DIR$/codestates/10_binarySearch/mySolution.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,23 +87,12 @@
       <workItem from="1608478130992" duration="293000" />
       <workItem from="1608509946969" duration="1593000" />
       <workItem from="1608565571738" duration="254000" />
-      <workItem from="1608596142499" duration="2585000" />
+      <workItem from="1608596142499" duration="2807000" />
+      <workItem from="1608603385283" duration="2855000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/codestates/10_binarySearch/mySolution.js</url>
-          <line>6</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
