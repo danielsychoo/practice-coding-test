@@ -30,7 +30,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Node.js.mySolution.js (2)">
@@ -72,7 +72,7 @@
       <workItem from="1608224736271" duration="569000" />
       <workItem from="1608556370944" duration="6963000" />
       <workItem from="1608564933194" duration="318000" />
-      <workItem from="1608656060088" duration="1230000" />
+      <workItem from="1608656060088" duration="1391000" />
     </task>
     <servers />
   </component>
@@ -101,5 +101,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

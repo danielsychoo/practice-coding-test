@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a4eb42f1-1ae5-4427-aa23-ea0d9cfa109d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codestates/10_binarySearch/bestPractice.js" beforeDir="false" afterPath="$PROJECT_DIR$/codestates/10_binarySearch/bestPractice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codestates/10_binarySearch/mySolution.js" beforeDir="false" afterPath="$PROJECT_DIR$/codestates/10_binarySearch/mySolution.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codestates/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/codestates/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codestates/11_powerSet/mySolution.js" beforeDir="false" afterPath="$PROJECT_DIR$/codestates/11_powerSet/mySolution.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +37,8 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.mySolution.js (5)">
+  <component name="RunManager" selected="Node.js.mySolution.js">
     <configuration name="bestPractice.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codestates/10_binarySearch/bestPractice.js" working-dir="$PROJECT_DIR$/codestates/10_binarySearch">
-      <method v="2" />
-    </configuration>
-    <configuration name="mySolution.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codestates/05_tiling/mySolution.js" working-dir="$PROJECT_DIR$/codestates/05_tiling">
       <method v="2" />
     </configuration>
     <configuration name="mySolution.js (3)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codestates/08_largestProductOfThree/mySolution.js" working-dir="$PROJECT_DIR$/codestates/08_largestProductOfThree">
@@ -53,13 +50,16 @@
     <configuration name="mySolution.js (5)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codestates/10_binarySearch/mySolution.js" working-dir="$PROJECT_DIR$/codestates/10_binarySearch">
       <method v="2" />
     </configuration>
+    <configuration name="mySolution.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codestates/11_powerSet/mySolution.js" working-dir="$PROJECT_DIR$/codestates/11_powerSet">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.mySolution.js" />
         <item itemvalue="Node.js.mySolution.js (5)" />
         <item itemvalue="Node.js.bestPractice.js" />
         <item itemvalue="Node.js.mySolution.js (4)" />
         <item itemvalue="Node.js.mySolution.js (3)" />
-        <item itemvalue="Node.js.mySolution.js (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -92,27 +92,11 @@
       <workItem from="1608603385283" duration="2923000" />
       <workItem from="1608613786965" duration="1057000" />
       <workItem from="1608653322367" duration="2297000" />
+      <workItem from="1608682505235" duration="2430000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/codestates/10_binarySearch/mySolution.js</url>
-          <line>6</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/codestates/10_binarySearch/bestPractice.js</url>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
