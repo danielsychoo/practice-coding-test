@@ -5,28 +5,20 @@
  */
 
 const binarySearch = function (arr, target) {
-  let baseIndex = 0;
-
-  const recursive = function(arr, target) {
-    let middleIndex = Math.floor(arr.length / 2)
-    // baseCase
-    if(arr[middleIndex] === target) {
-      return middleIndex;
+  let left = 0,
+    right = arr.length - 1;
+  while (left <= right) {
+    let middle = parseInt((right + left) / 2);
+    if (arr[middle] === target) {
+      return middle;
     }
-    if(arr.length === 1) {
-      return -1;
-    }
-
-    if(target < arr[middleIndex]) {
-      arr = arr.slice(0, middleIndex);
-      return recursive(arr, target);
+    if (target < arr[middle]) {
+      right = middle - 1;
     } else {
-      arr = arr.slice(middleIndex, arr.length);
-      baseIndex = middleIndex;
-      return recursive(arr, target);
+      left = middle + 1;
     }
   }
-  return recursive(arr, target);
+  return -1;
 };
 
 // let output = binarySearch([], 1);
