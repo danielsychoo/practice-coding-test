@@ -19,8 +19,10 @@ const powerSet = function (str) {
   const recursive = function (arr, count, board) {
     // baseCase
     if(count === 0) {
-
+      result.push(board);
     }
+
+
   }
 };
 
