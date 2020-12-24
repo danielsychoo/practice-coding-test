@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a4eb42f1-1ae5-4427-aa23-ea0d9cfa109d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codestates/11_powerSet/bestPractice.js" beforeDir="false" afterPath="$PROJECT_DIR$/codestates/11_powerSet/bestPractice.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codestates/11_powerSet/mySolution.js" beforeDir="false" afterPath="$PROJECT_DIR$/codestates/11_powerSet/mySolution.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,11 +94,23 @@
       <workItem from="1608653322367" duration="2297000" />
       <workItem from="1608682505235" duration="2430000" />
       <workItem from="1608697320241" duration="2209000" />
-      <workItem from="1608767963933" duration="402000" />
+      <workItem from="1608767963933" duration="2835000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/codestates/11_powerSet/mySolution.js</url>
+          <line>5</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
