@@ -16,7 +16,9 @@
     </layout>
   </component>
   <component name="ProjectId" id="1lYnBAkAtYqAO7IrPjsYG8S7guo" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -94,7 +96,8 @@
       <workItem from="1608682505235" duration="2430000" />
       <workItem from="1608697320241" duration="2209000" />
       <workItem from="1608767963933" duration="2905000" />
-      <workItem from="1608833115211" duration="6000" />
+      <workItem from="1608833115211" duration="340000" />
+      <workItem from="1608981795415" duration="385000" />
     </task>
     <servers />
   </component>

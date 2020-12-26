@@ -14,7 +14,7 @@ const powerSet = function (str) {
       // 마지막 문자까지 검토한 경우
       result.push(subset);
       return;
-    } 
+    }
 
     // recursive case
     // idx번째 문자가 포함되지 않는 경우
