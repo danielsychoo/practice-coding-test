@@ -8,7 +8,7 @@ const powerSet = function (str) {
   let uniqueStrArr = Array.from(new Set(strArr)); // 중복제거
 
   let result = [];
-  const pickOrNot = (idx, subset) => {
+  const recursive = (idx, subset) => {
     // base case
     if (idx === uniqueStrArr.length) {
       // 마지막 문자까지 검토한 경우
@@ -18,13 +18,13 @@ const powerSet = function (str) {
 
     // recursive case
     // idx번째 문자가 포함되지 않는 경우
-    pickOrNot(idx + 1, subset);
+    recursive(idx + 1, subset);
 
     // idx번째 문자가 포함되는 경우
-    pickOrNot(idx + 1, subset + uniqueStrArr[idx]);
+    recursive(idx + 1, subset + uniqueStrArr[idx]);
   };
 
-  pickOrNot(0, '');
+  recursive(0, '');
 
   return result.sort();
 };
