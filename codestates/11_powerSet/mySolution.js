@@ -4,29 +4,38 @@
  * 3. 빈 문자열 포함
  */
 const powerSet = function (str) {
-  let strArr = str.split('');
-  let uniqueStrArr = Array.from(new Set(strArr)); // 중복제거
+  // 정렬
+  const sorted = str.split('').sort();
 
-  let result = [];
-  const recursive = (idx, subset) => {
+  // 중복 제거
+  const deduplicated = sorted.reduce((acc, item) => {
+    if (acc[acc.length - 1] === item) {
+      return acc;
+    } else {
+      return acc.concat(item);
+    }
+  });
+
+  let subSets = [];
+  const pickOrNot = (idx, subset) => {
     // base case
-    if (idx === uniqueStrArr.length) {
+    if (idx === deduplicated.length) {
       // 마지막 문자까지 검토한 경우
-      result.push(subset);
+      subSets.push(subset);
       return;
     }
 
     // recursive case
     // idx번째 문자가 포함되지 않는 경우
-    recursive(idx + 1, subset);
+    pickOrNot(idx + 1, subset);
 
     // idx번째 문자가 포함되는 경우
-    recursive(idx + 1, subset + uniqueStrArr[idx]);
+    pickOrNot(idx + 1, subset + deduplicated[idx]);
   };
 
-  recursive(0, '');
+  pickOrNot(0, '');
 
-  return result.sort();
+  return subSets.sort();
 };
 
 // let output1 = powerSet('abc');
