@@ -1,43 +1,16 @@
-// bfs는 너비우선탐색이므로 각 depth를 싹 돌고 다음 depth 확인
-// 1. root.value 체크
-// 2. root.children을 for loop으로 돌면서 체크
-// 3. recursion으로 다음 depth 이동
-// 4. 다음 depth가 없으면 끝
 let bfs = function (node) {
-  let result = [];
+  let queue = [node];
+  const result = [];
 
-  if(node.value) {
-    result.push(node.value);
+  while(queue.length > 0) {
+    let head = queue[0];
+    queue = queue.slice(1);
+
+    result.push(head.value);
+
+    head.children.forEach(child => queue.push(child));
   }
-
-  const recursion = (remainNode) => {
-    if(remainNode.children) {
-      for(let i = 0; i < remainNode.children.length; i++) {
-        result.push(remainNode.children[i].value);
-      }
-
-      for(let n = 0; n < remainNode.children.length; n++) {
-        if(remainNode.children[n].children) {
-          recursion(remainNode.children[n]);
-        }
-      }
-    }
-  }
-  recursion(node);
-  console.log(result);
-};
-
-// 이 아래 코드는 변경하지 않아도 됩니다. 자유롭게 참고하세요.
-let Node = function (value) {
-  this.value = value;
-  this.children = [];
-};
-
-// 위 Node 객체로 구성되는 트리는 매우 단순한 형태의 트리입니다.
-// membership check(중복 확인)를 따로 하지 않습니다.
-Node.prototype.addChild = function (child) {
-  this.children.push(child);
-  return child;
+  return result;
 };
 
 let root = new Node(1);
