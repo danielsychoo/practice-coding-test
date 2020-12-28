@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a4eb42f1-1ae5-4427-aa23-ea0d9cfa109d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codestates/12_treeBFS/mySolution.js" beforeDir="false" afterPath="$PROJECT_DIR$/codestates/12_treeBFS/mySolution.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codestates/12_treeBFS/bestPractice.js" beforeDir="false" afterPath="$PROJECT_DIR$/codestates/12_treeBFS/bestPractice.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +38,8 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.mySolution.js (2)">
-    <configuration name="bestPractice.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codestates/10_binarySearch/bestPractice.js" working-dir="$PROJECT_DIR$/codestates/10_binarySearch">
+  <component name="RunManager" selected="Node.js.bestPractice.js">
+    <configuration name="bestPractice.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codestates/12_treeBFS/bestPractice.js" working-dir="$PROJECT_DIR$/codestates/12_treeBFS">
       <method v="2" />
     </configuration>
     <configuration name="mySolution.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/leetCode/recursionBox/01_reverseString/mySolution.js" working-dir="$PROJECT_DIR$/leetCode/recursionBox/01_reverseString">
@@ -48,19 +48,19 @@
     <configuration name="mySolution.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codestates/12_treeBFS/mySolution.js" working-dir="$PROJECT_DIR$/codestates/12_treeBFS">
       <method v="2" />
     </configuration>
-    <configuration name="mySolution.js (5)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codestates/10_binarySearch/mySolution.js" working-dir="$PROJECT_DIR$/codestates/10_binarySearch">
+    <configuration name="mySolution.js (3)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codestates/05_tiling/mySolution.js" working-dir="$PROJECT_DIR$/codestates/05_tiling">
       <method v="2" />
     </configuration>
-    <configuration name="mySolution.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codestates/11_powerSet/mySolution.js" working-dir="$PROJECT_DIR$/codestates/11_powerSet">
+    <configuration name="mySolution.js (4)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codestates/07_treeDFS/mySolution.js" working-dir="$PROJECT_DIR$/codestates/07_treeDFS">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.mySolution.js (2)" />
-        <item itemvalue="Node.js.mySolution.js (1)" />
-        <item itemvalue="Node.js.mySolution.js" />
-        <item itemvalue="Node.js.mySolution.js (5)" />
         <item itemvalue="Node.js.bestPractice.js" />
+        <item itemvalue="Node.js.mySolution.js (2)" />
+        <item itemvalue="Node.js.mySolution.js (4)" />
+        <item itemvalue="Node.js.mySolution.js (3)" />
+        <item itemvalue="Node.js.mySolution.js (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -99,7 +99,10 @@
       <workItem from="1608833115211" duration="340000" />
       <workItem from="1608981795415" duration="3734000" />
       <workItem from="1609085547481" duration="1569000" />
-      <workItem from="1609113936893" duration="2417000" />
+      <workItem from="1609113936893" duration="2674000" />
+      <workItem from="1609141465879" duration="121000" />
+      <workItem from="1609141778104" duration="114000" />
+      <workItem from="1609169415524" duration="387000" />
     </task>
     <servers />
   </component>
@@ -117,8 +120,22 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/codestates/12_treeBFS/mySolution.js</url>
           <line>6</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/codestates/05_tiling/mySolution.js</url>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/codestates/07_treeDFS/mySolution.js</url>
+          <line>1</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/codestates/12_treeBFS/bestPractice.js</url>
+          <line>3</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
