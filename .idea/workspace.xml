@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a4eb42f1-1ae5-4427-aa23-ea0d9cfa109d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codestates/13_insertionSort/bestPractice.js" beforeDir="false" afterPath="$PROJECT_DIR$/codestates/13_insertionSort/bestPractice.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codestates/13_insertionSort/mySolution.js" beforeDir="false" afterPath="$PROJECT_DIR$/codestates/13_insertionSort/mySolution.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +108,9 @@
       <workItem from="1609245881520" duration="20000" />
       <workItem from="1609246837709" duration="25000" />
       <workItem from="1609248022671" duration="70000" />
-      <workItem from="1609287698003" duration="1875000" />
+      <workItem from="1609287698003" duration="1916000" />
+      <workItem from="1609328223971" duration="3498000" />
+      <workItem from="1609332347876" duration="2000" />
     </task>
     <servers />
   </component>
@@ -137,9 +140,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/codestates/13_insertionSort/mySolution.js</url>
-          <line>14</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="9" />
+          <line>18</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
