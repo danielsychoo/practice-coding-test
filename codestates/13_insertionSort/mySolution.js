@@ -12,15 +12,38 @@
  * 4. advanced를 생각하면 빈배열에 받아야 하므로 splice 필요 없을 듯
  * 5. 빈배열을 parameter로 넣으려면 재귀가 맞지 않을까 싶은데..
  */
-const insertionSort = function (arr) {
+const insertionSort = function (arr, recursive) {
+  let result = [arr[0]];
+  recursive = (arr, result) => {
+    // baseCase
+    if (arr.length === 0) {
+      return;
+    }
 
+    arr = arr.slice(1);
+
+    for (let i = 0; i < result.length; i++) {
+      if (arr[0] < result[i] && result.length === 1) {
+        let temp = result[0];
+        result[0] = arr[i];
+        result[1] = temp;
+        recursive(arr, result);
+        return;
+      }
+    }
+    result.push(arr[0]);
+    recursive(arr, result);
+    return;
+  }
+  recursive(arr, result);
+  console.log(result);
 };
 
-let output = insertionSort([3, 1, 21]);
-console.log(output); // --> [1, 3, 21]
+// let output = insertionSort([3, 1, 21]);
+// console.log(output); // --> [1, 3, 21]
 
-// let output = insertionSort([1, 2, 43, 100, 21]);
-// console.log(output); // --> [1, 2, 21, 43, 100]
-//
+let output = insertionSort([1, 2, 43, 100, 21]);
+console.log(output); // --> [1, 2, 21, 43, 100]
+
 // let output = insertionSort([20, -10, -11, 2, 29]);
 // console.log(output); // --> [-11, -10, 2, 20, 29]

@@ -38,11 +38,8 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.bestPractice.js">
+  <component name="RunManager" selected="Node.js.mySolution.js">
     <configuration name="bestPractice.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codestates/12_treeBFS/bestPractice.js" working-dir="$PROJECT_DIR$/codestates/12_treeBFS">
-      <method v="2" />
-    </configuration>
-    <configuration name="mySolution.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/leetCode/recursionBox/01_reverseString/mySolution.js" working-dir="$PROJECT_DIR$/leetCode/recursionBox/01_reverseString">
       <method v="2" />
     </configuration>
     <configuration name="mySolution.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codestates/12_treeBFS/mySolution.js" working-dir="$PROJECT_DIR$/codestates/12_treeBFS">
@@ -54,13 +51,16 @@
     <configuration name="mySolution.js (4)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codestates/07_treeDFS/mySolution.js" working-dir="$PROJECT_DIR$/codestates/07_treeDFS">
       <method v="2" />
     </configuration>
+    <configuration name="mySolution.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/codestates/13_insertionSort/mySolution.js" working-dir="$PROJECT_DIR$/codestates/13_insertionSort">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.mySolution.js" />
         <item itemvalue="Node.js.bestPractice.js" />
         <item itemvalue="Node.js.mySolution.js (2)" />
         <item itemvalue="Node.js.mySolution.js (4)" />
         <item itemvalue="Node.js.mySolution.js (3)" />
-        <item itemvalue="Node.js.mySolution.js (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -107,7 +107,7 @@
       <workItem from="1609245881520" duration="20000" />
       <workItem from="1609246837709" duration="25000" />
       <workItem from="1609248022671" duration="70000" />
-      <workItem from="1609287698003" duration="694000" />
+      <workItem from="1609287698003" duration="1875000" />
     </task>
     <servers />
   </component>
@@ -134,6 +134,12 @@
           <url>file://$PROJECT_DIR$/codestates/07_treeDFS/mySolution.js</url>
           <line>1</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/codestates/13_insertionSort/mySolution.js</url>
+          <line>14</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
