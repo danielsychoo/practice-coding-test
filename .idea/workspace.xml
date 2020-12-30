@@ -3,13 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="a4eb42f1-1ae5-4427-aa23-ea0d9cfa109d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codestates/13_insertionSort/bestPractice.js" beforeDir="false" afterPath="$PROJECT_DIR$/codestates/13_insertionSort/bestPractice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codestates/13_insertionSort/mySolution.js" beforeDir="false" afterPath="$PROJECT_DIR$/codestates/13_insertionSort/mySolution.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="JsbtTreeLayoutManager">
     <layout place="tools.popupGrunt">
@@ -110,7 +116,8 @@
       <workItem from="1609248022671" duration="70000" />
       <workItem from="1609287698003" duration="1916000" />
       <workItem from="1609328223971" duration="3498000" />
-      <workItem from="1609332347876" duration="2000" />
+      <workItem from="1609332347876" duration="75000" />
+      <workItem from="1609337890896" duration="2986000" />
     </task>
     <servers />
   </component>
